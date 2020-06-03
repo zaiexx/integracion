@@ -1,0 +1,13 @@
+migracion-js:
+  version: 1.x
+  js:
+    js/Mapas-CEPAL.e31bb0bc.js: {preprocess: false, async: true}
+    https://kit.fontawesome.com/b86184394b.js: {external: true}
+
+migracion-css:
+  version: 1.x
+  header: true
+  css:
+    base:
+      css/Mapas-CEPAL.e31bb0bc.css: {preprocess: false}
+

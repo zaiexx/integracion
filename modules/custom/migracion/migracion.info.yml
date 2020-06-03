@@ -1,0 +1,5 @@
+name: Módulo para Migración
+description: Formularios, mapas, gráficos y tablas para módulo de migración
+core: 8.x
+package: Custom
+type: module

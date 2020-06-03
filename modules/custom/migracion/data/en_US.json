@@ -1,0 +1,73 @@
+{
+    "en_US": {
+        "database": "Database",
+        "layers": "Layers",
+        "customization": "Customization",
+        "info": "Info",
+        "settings": "Help",
+        "info-not-selected": "Click on a feature to see its info"
+    },
+    "database": "Database",
+    "layers": "Layers",
+    "customization": "Customization",
+    "feature-info": "Info",
+    "help": "Help",
+    "settings": "Settings",
+    "info-not-selected": "Click on a feature to see its info",
+    "button-reset-view": "Reset view",
+    "button-north": "Reset north",
+    "button-print": "Print as PDF",
+    "button-save-jpg": "Save map as JPG",
+    "button-fullscreen": "Toggle fullscreen",
+    
+    "loading": "Loading",
+
+    "printing-dialogtitle": "Print map",
+    "printing-input-title": "Choose a map title",
+    "printing-print": "Print",
+    "printing-cancel": "Cancel",
+
+    "select-group": "Select one category",
+    "select-subgroup": "Select one variable",
+    "select-one": "Select one",
+    "select-multiple": "Select one or more",
+    "group-variables": "Variables",
+    "group-indicators": "Indicators",
+    "select-classification-number": "Select number of classes",
+    "select-classification-type": "Select a classification type",
+    "classifications-jenks": "Jenks",
+    "classifications-equal": "Equal Intervals",
+    "classifications-quant": "Quantile",
+    "classifications-stddev": "Standard Deviation",
+    "classifications-arithprog": "Arithmetic Progression",
+    "classifications-geomprog": "Geometric Progression",
+
+    "select-color-palette": "Select a color palette",
+
+    "legend-title": "Legend",
+
+    "customization-fontsize": "Labels size",
+    "customization-fontcolor": "Font color",
+    "customization-strokewidth": "Stroke width",
+    "customization-pointSize": "Point size",
+
+    "featureinfo-variable": "Variable",
+    "featureinfo-value": "Value",
+    "featureinfo-placeholder": "Click a feature on the map to show the associated info",
+
+    "settings-language": "Language",
+    "settings-units": "Scale units",
+    "units-degrees": "Degrees",
+    "units-impinch": "Imperial inch",
+    "units-usinch": "US inch",
+    "units-nauticmile": "Nautical mile",
+    "units-metric": "Metric",
+    
+    "aislamiento": "Isolation",
+    "interaccion": "Interaction",
+    "duncan": "Duncan",
+
+    "infotip_duncan": "Comparison of spatial distribution between different groups in determined areas. This value varies between 0 (full integration) and 100 (full segregation) <br><img src=\"http://www.ub.edu/geocrit/sn/fsn-169/fsn-169010.gif\" width=\"320\" >",
+    "infotip_aislamiento": "Reflect the probabilities that a minority person shares a unit area with a majority person of with another minority person.",
+    "infotip_interaccion": "Exposure of minority group members to members of the majority group."
+}

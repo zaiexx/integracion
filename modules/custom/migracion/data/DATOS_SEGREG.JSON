@@ -1,0 +1,654 @@
+﻿{
+  "name": "T1",
+  "date": "2/27/2020",
+  "header": {
+    "banner": "ECLAC/CELADE Redatam7",
+    "title": "",
+    "dictionary": "CPV2017 - Distrital",
+    "selection": "",
+    "footer": ""
+  },
+  "metadata": {
+    "entity": "DEPARTAM",
+    "key": "REDCODE",
+    "columns": [
+      {
+        "name": "REDCODE",
+        "caption": "Code",
+        "type": "STRING",
+        "group": "",
+        "source": "REDCODE",
+        "size": 2,
+        "decimals": 0
+      },
+      {
+        "name": "NCCDD",
+        "caption": "Departamento",
+        "type": "STRING",
+        "group": "NCCDD",
+        "source": "REGULAR",
+        "size": 40,
+        "decimals": 0
+      },
+      {
+        "name": "T1_1_1",
+        "caption": "Sin Nivel",
+        "type": "REAL",
+        "group": "C5P13NIV",
+        "source": "CATEGORY",
+        "size": 15,
+        "decimals": 0
+      },
+      {
+        "name": "T1_1_2",
+        "caption": "Inicial",
+        "type": "REAL",
+        "group": "C5P13NIV",
+        "source": "CATEGORY",
+        "size": 15,
+        "decimals": 0
+      },
+      {
+        "name": "T1_1_3",
+        "caption": "Primaria",
+        "type": "REAL",
+        "group": "C5P13NIV",
+        "source": "CATEGORY",
+        "size": 15,
+        "decimals": 0
+      },
+      {
+        "name": "T1_1_4",
+        "caption": "Secundaria",
+        "type": "REAL",
+        "group": "C5P13NIV",
+        "source": "CATEGORY",
+        "size": 15,
+        "decimals": 0
+      },
+      {
+        "name": "T1_1_5",
+        "caption": "Básica especial",
+        "type": "REAL",
+        "group": "C5P13NIV",
+        "source": "CATEGORY",
+        "size": 15,
+        "decimals": 0
+      },
+      {
+        "name": "T1_1_6",
+        "caption": "Superior no universitaria incompleta",
+        "type": "REAL",
+        "group": "C5P13NIV",
+        "source": "CATEGORY",
+        "size": 15,
+        "decimals": 0
+      },
+      {
+        "name": "T1_1_7",
+        "caption": "Superior no universitaria completa",
+        "type": "REAL",
+        "group": "C5P13NIV",
+        "source": "CATEGORY",
+        "size": 15,
+        "decimals": 0
+      },
+      {
+        "name": "T1_1_8",
+        "caption": "Superior universitaria incompleta",
+        "type": "REAL",
+        "group": "C5P13NIV",
+        "source": "CATEGORY",
+        "size": 15,
+        "decimals": 0
+      },
+      {
+        "name": "T1_1_9",
+        "caption": "Superior universitaria completa",
+        "type": "REAL",
+        "group": "C5P13NIV",
+        "source": "CATEGORY",
+        "size": 15,
+        "decimals": 0
+      },
+      {
+        "name": "T1_1_10",
+        "caption": "Maestría / Doctorado",
+        "type": "REAL",
+        "group": "C5P13NIV",
+        "source": "CATEGORY",
+        "size": 15,
+        "decimals": 0
+      },
+      {
+        "name": "T1_1_MV",
+        "caption": "Missing Value",
+        "type": "REAL",
+        "group": "C5P13NIV",
+        "source": "MISSING",
+        "size": 15,
+        "decimals": 0
+      },
+      {
+        "name": "T1_1_NA",
+        "caption": "Not applicable",
+        "type": "REAL",
+        "group": "C5P13NIV",
+        "source": "NOTAPPL",
+        "size": 15,
+        "decimals": 0
+      },
+      {
+        "name": "T1_1_T",
+        "caption": "Total",
+        "type": "REAL",
+        "group": "C5P13NIV",
+        "source": "TOTAL",
+        "size": 15,
+        "decimals": 0
+      }
+    ]
+  },
+  "data": [
+    {
+      "rowNum": 0,
+      "values": [
+        "01",
+        "Departamento: Amazonas                  ",
+        35774,
+        21543,
+		151268,
+        102610,
+		200,
+		7322,
+		15056,
+		6527,
+        15007,
+		1747,  
+        0,
+        22330,
+        357054
+      ]
+    },
+    {
+      "rowNum": 1,
+      "values": [
+        "02",
+        "Departamento: Áncash                    ",
+        99321,
+		54472,
+		308819,
+        347286,
+		967,
+		30002,
+		56286,
+		43428,
+        81855,
+        7890,
+        0,
+        53193,
+        1030326
+      ]
+    },
+    {
+      "rowNum": 2,
+      "values": [
+        "03",
+        "Departamento: Apurímac                  ",
+        52865,
+        21398,
+		114841,
+        122940,
+        400,
+		10108,
+		15922,
+		14784,
+        29052,
+		2668,
+        0,
+        20781,
+        384978
+      ]
+    },
+    {
+      "rowNum": 3,
+      "values": [
+        "04",
+        "Departamento: Arequipa                  ",
+        57916,
+		65661,
+		265738,
+        455433,
+		2826,
+		70237,
+		130945,
+		79452,
+        171233,
+        20097,
+        0,
+        63192,
+        1319538
+      ]
+    },
+    {
+      "rowNum": 4,
+      "values": [
+        "05",
+        "Departamento: Ayacucho                  ",
+        66161,
+        31613,
+		179775,
+        195231,
+		456,
+		17361,
+		27700,
+		21651,
+        39759,
+        4869,
+        0,
+        31600,
+        584576
+      ]
+    },
+    {
+      "rowNum": 5,
+      "values": [
+        "06",
+        "Departamento: Cajamarca                 ",
+        163047,
+        73900,
+        522401,
+        334089,
+        681,
+		25570,
+		51820,
+		28955,
+        63226,
+		6918,
+        0,
+        70405,
+        1270607
+      ]
+    },
+    {
+      "rowNum": 6,
+      "values": [
+        "07",
+        "Provincia Constitucional del Callao     ",
+        27786,
+        50232,
+        179256,
+        398426,
+		3042,
+		57931,
+		91509,
+		57154,
+        75671,
+        8138,
+        0,
+        45349,
+        949145
+      ]
+    },
+    {
+      "rowNum": 7,
+      "values": [
+        "08",
+        "Departamento: Cusco                     ",
+        111778,
+        59564,
+		317292,
+        383231,
+		1196,
+		42099,
+		72772,
+		49762,
+        96667,
+        12827,
+        0,
+        58339,
+        1147188
+      ]
+    },
+    {
+      "rowNum": 8,
+      "values": [
+        "09",
+        "Departamento: Huancavelica              ",
+        48950,
+        17549,
+        111947,
+        105031,
+		216,
+		7323,
+        11970,
+		8752,
+        16225,
+        1660,
+        0,
+        18016,
+        329623
+      ]
+    },
+    {
+      "rowNum": 9,
+      "values": [
+        "10",
+        "Departamento: Huánuco                   ",
+        78543,
+        35841,
+        240804,
+        207938,
+        425,
+        14855,
+        22993,
+        26265,
+        48571,
+        5587,
+        0,
+        39225,
+        681822
+      ]
+    },
+    {
+      "rowNum": 10,
+      "values": [
+        "11",
+        "Departamento: Ica                       ",
+        28961,
+        48753,
+        172549,
+        309434,
+        958,
+        40288,
+        71684,
+        47117,
+        78412,
+        7287,
+        0,
+        45322,
+        805443
+      ]
+    },
+    {
+      "rowNum": 11,
+      "values": [
+        "12",
+        "Departamento: Junín                     ",
+        85181,
+        58337,
+		331823,
+        420320,
+        1062,
+        42845,
+        71684,
+        52962,
+        105112,
+        11112,
+        0,
+        65600,
+        1180438
+      ]
+    },
+    {
+      "rowNum": 12,
+      "values": [
+        "13",
+        "Departamento: La Libertad               ",
+        125674,
+        91927,
+        530426,
+        539948,
+        1763,
+        54258,
+        106739,
+        74586,
+        142040,
+        16517,
+        0,
+        94202,
+        1683878
+      ]
+    },
+    {
+      "rowNum": 13,
+      "values": [
+        "14",
+        "Departamento: Lambayeque                ",
+        72008,
+        62894,
+        321096,
+        403771,
+        930,
+        41555,
+        74852,
+        56553,
+        90596,
+        11084,
+        0,
+        61921,
+        1135339
+      ]
+    },
+    {
+      "rowNum": 14,
+      "values": [
+        "15",
+        "Departamento: Lima                      ",
+        277530,
+        431275,
+        1658783,
+        3545922,
+        24435,
+        502838,
+        785767,
+        666020,
+        1015492,
+        174802,
+        0,
+        402541,
+        9082864
+      ]
+    },
+    {
+      "rowNum": 15,
+      "values": [
+        "16",
+        "Departamento: Loreto                    ",
+        55235,
+        57796,
+        309145,
+        276514,
+        1039,
+        22352,
+        35878,
+        18972,
+        45048,
+        4203,
+        0,
+        57328,
+        826182
+      ]
+    },
+    {
+      "rowNum": 16,
+      "values": [
+        "17",
+        "Departamento: Madre de Dios             ",
+        7787,
+        8239,
+        35022,
+        52490,
+        152,
+        5568,
+        7162,
+        5548,
+        9936,
+        977,
+        0,
+        8189,
+        132881
+      ]
+    },
+    {
+      "rowNum": 17,
+      "values": [
+        "18",
+        "Departamento: Moquegua                  ",
+        7320,
+        8241,
+        35721,
+        56314,
+        271,
+        9055,
+        18335,
+        10456,
+        19522,
+        2235,
+        0,
+        7393,
+        167470
+      ]
+    },
+    {
+      "rowNum": 18,
+      "values": [
+        "19",
+        "Departamento: Pasco                     ",
+        18423,
+        13143,
+        69457,
+        86549,
+        295,
+        8174,
+        12853,
+        8906,
+        21046,
+        2334,
+        0,
+        12885,
+        241180
+      ]
+    },
+    {
+      "rowNum": 19,
+      "values": [
+        "20",
+        "Departamento: Piura                     ",
+        134378,
+        106800,
+        582019,
+        580574,
+        2016,
+        60474,
+        107417,
+        69012,
+        102092,
+        9883,
+        0,
+        102144,
+        1754665
+      ]
+    },
+    {
+      "rowNum": 20,
+      "values": [
+        "21",
+        "Departamento: Puno                      ",
+        108897,
+        51237,
+        327925,
+        409392,
+        1014,
+        30917,
+        45161,
+        49360,
+        87028,
+        10797,
+        0,
+        50969,
+        1121728
+      ]
+    },
+    {
+      "rowNum": 21,
+      "values": [
+        "22",
+        "Departamento: San Martín                ",
+        59875,
+        47064,
+        309171,
+        234281,
+        627,
+        21089,
+        38438,
+        16381,
+        36269,
+        3809,
+        0,
+        46377,
+        767004
+      ]
+    },
+    {
+      "rowNum": 22,
+      "values": [
+        "23",
+        "Departamento: Tacna                     ",
+        12579,
+        14758,
+        66713,
+        122037,
+        419,
+        13534,
+        25236,
+        19920,
+        35605,
+        4838,
+        0,
+        13693,
+        315639
+      ]
+    },
+    {
+      "rowNum": 23,
+      "values": [
+        "24",
+        "Departamento: Tumbes                    ",
+        9271,
+        13859,
+        60591,
+        79371,
+        309,
+        8508,
+        15748,
+        9262,
+        13816,
+        1659,
+        0,
+        12469,
+        212394
+      ]
+    },
+    {
+      "rowNum": 24,
+      "values": [
+        "25",
+        "Departamento: Ucayali                   ",
+        31170,
+        30597,
+        149521,
+        168232,
+        717,
+        16435,
+        22624,
+        15355,
+        27007,
+        2440,
+        0,
+        32361,
+        464098
+      ]
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+﻿{
+  "name": "T_TabList",
+  "date": "4/20/2020",
+  "header": {
+    "banner": "CEPAL/CELADE Redatam7",
+    "title": "INDICADOTRES TOTALES DAM RECIENTE",
+    "dictionary": "CPV2017 - Distrital",
+    "selection": "",
+    "footer": ""
+  },
+  "metadata": {
+    "entity": "",
+    "key": "",
+    "groups": [],
+    "columns": [
+      {
+        "name": "D_HAB",
+        "caption": "DAM RESIDENCIA HABITUAL",
+        "type": "STRING",
+        "group": "",
+        "source": "REDCODE",
+        "size": 64,
+        "decimals": 0
+      },
+      {
+        "name": "DR_RESHAB",
+        "caption": "RESIDENCIA HABITUAL",
+        "type": "INTEGER",
+        "group": "",
+        "source": "CATEGORY",
+        "size": 10,
+        "decimals": 0
+      },
+      {
+        "name": "DR_RESREC",
+        "caption": "RESIDENCIA HACE 5 AÑOS",
+        "type": "INTEGER",
+        "group": "",
+        "source": "CATEGORY",
+        "size": 10,
+        "decimals": 0
+      },
+      {
+        "name": "DR_NOMIGRA",
+        "caption": "NO MIGRANTES",
+        "type": "INTEGER",
+        "group": "",
+        "source": "CATEGORY",
+        "size": 10,
+        "decimals": 0
+      },
+      {
+        "name": "DR_INMIG",
+        "caption": "INMIGRANTES",
+        "type": "INTEGER",
+        "group": "",
+        "source": "CATEGORY",
+        "size": 10,
+        "decimals": 0
+      },
+      {
+        "name": "DR_EMIG",
+        "caption": "EMIGRANTES",
+        "type": "INTEGER",
+        "group": "",
+        "source": "CATEGORY",
+        "size": 10,
+        "decimals": 0
+      },
+      {
+        "name": "DR_MIGNETA",
+        "caption": "MIGRACIÓN NETA",
+        "type": "INTEGER",
+        "group": "",
+        "source": "CATEGORY",
+        "size": 10,
+        "decimals": 0
+      },
+      {
+        "name": "DR_MIGBRUTA",
+        "caption": "MIGRACIÓN BRUTA",
+        "type": "INTEGER",
+        "group": "",
+        "source": "CATEGORY",
+        "size": 10,
+        "decimals": 0
+      },
+      {
+        "name": "DR_TASAINMI",
+        "caption": "TASA DE INMIGRACIÓN",
+        "type": "REAL",
+        "group": "",
+        "source": "REGULAR",
+        "size": 10,
+        "decimals": 2
+      },
+      {
+        "name": "DR_TASAEMI",
+        "caption": "TASA DE EMIGRACIÓN",
+        "type": "REAL",
+        "group": "",
+        "source": "REGULAR",
+        "size": 10,
+        "decimals": 2
+      },
+      {
+        "name": "DR_TASAMIG",
+        "caption": "TASA DE MIGRACIÓN",
+        "type": "REAL",
+        "group": "",
+        "source": "REGULAR",
+        "size": 10,
+        "decimals": 2
+      },
+      {
+        "name": "DR_EFICACIA",
+        "caption": "INDICE DE EFICACIA MIGRATORIA",
+        "type": "REAL",
+        "group": "",
+        "source": "REGULAR",
+        "size": 10,
+        "decimals": 2
+      }
+    ]
+  },
+  "data": [
+    {
+      "rowNum": 0,
+      "values": [
+        "1. Departamento: Amazonas                  ",
+        343359,
+        353124,
+        323436,
+        19923,
+        29688,
+        -9765,
+        49611,
+        11.44,
+        17.05,
+        -5.61,
+        -0.20
+      ]
+    },
+    {
+      "rowNum": 1,
+      "values": [
+        "2. Departamento: Áncash                    ",
+        989798,
+        1010716,
+        952485,
+        37313,
+        58231,
+        -20918,
+        95544,
+        7.46,
+        11.64,
+        -4.18,
+        -0.22
+      ]
+    },
+    {
+      "rowNum": 2,
+      "values": [
+        "3. Departamento: Apurímac                  ",
+        370628,
+        377310,
+        349149,
+        21479,
+        28161,
+        -6682,
+        49640,
+        11.49,
+        15.06,
+        -3.57,
+        -0.13
+      ]
+    },
+    {
+      "rowNum": 3,
+      "values": [
+        "4. Departamento: Arequipa                  ",
+        1259439,
+        1223585,
+        1168801,
+        90638,
+        54784,
+        35854,
+        145422,
+        14.60,
+        8.83,
+        5.78,
+        0.25
+      ]
+    },
+    {
+      "rowNum": 4,
+      "values": [
+        "5. Departamento: Ayacucho                  ",
+        561860,
+        571829,
+        534200,
+        27660,
+        37629,
+        -9969,
+        65289,
+        9.76,
+        13.28,
+        -3.52,
+        -0.15
+      ]
+    },
+    {
+      "rowNum": 5,
+      "values": [
+        "6. Departamento: Cajamarca                 ",
+        1226298,
+        1281786,
+        1189388,
+        36910,
+        92398,
+        -55488,
+        129308,
+        5.89,
+        14.74,
+        -8.85,
+        -0.43
+      ]
+    },
+    {
+      "rowNum": 6,
+      "values": [
+        "7. Provincia Constitucional del Callao     ",
+        898255,
+        889300,
+        803983,
+        94272,
+        85317,
+        8955,
+        179589,
+        21.10,
+        19.09,
+        2,
+        0,
+        0.05
+      ]
+    },
+    {
+      "rowNum": 7,
+      "values": [
+        "8. Departamento: Cusco                     ",
+        1100246,
+        1111976,
+        1051149,
+        49097,
+        60827,
+        -11730,
+        109924,
+        8.88,
+        11,
+        0,
+        -2.12,
+        -0.11
+      ]
+    },
+    {
+      "rowNum": 8,
+      "values": [
+        "9. Departamento: Huancavelica              ",
+        321542,
+        345586,
+        309328,
+        12214,
+        36258,
+        -24044,
+        48472,
+        7.32,
+        21.74,
+        -14.42,
+        -0.50
+      ]
+    },
+    {
+      "rowNum": 9,
+      "values": [
+        "10. Departamento: Huánuco                   ",
+        657484,
+        672331,
+        622620,
+        34864,
+        49711,
+        -14847,
+        84575,
+        10.49,
+        14.95,
+        -4.47,
+        -0.18
+      ]
+    },
+    {
+      "rowNum": 10,
+      "values": [
+        "11. Departamento: Ica                       ",
+        758442,
+        748286,
+        709888,
+        48554,
+        38398,
+        10156,
+        86952,
+        12.89,
+        10.19,
+        2.70,
+        0.12
+      ]
+    },
+    {
+      "rowNum": 11,
+      "values": [
+        "12. Departamento: Junín                     ",
+        1131678,
+        1147048,
+        1067059,
+        64619,
+        79989,
+        -15370,
+        144608,
+        11.34,
+        14.04,
+        -2.70,
+        -0.11
+      ]
+    },
+    {
+      "rowNum": 12,
+      "values": [
+        "13. Departamento: La Libertad               ",
+        1598489,
+        1597915,
+        1536947,
+        61542,
+        60968,
+        574,
+        122510,
+        7.70,
+        7.63,
+        0.07,
+        0
+      ]
+    },
+    {
+      "rowNum": 13,
+      "values": [
+        "14. Departamento: Lambayeque                ",
+        1080609,
+        1090673,
+        1021226,
+        59383,
+        69447,
+        -10064,
+        128830,
+        10.94,
+        12.79,
+        -1.85,
+        -0.08
+      ]
+    },
+    {
+      "rowNum": 14,
+      "values": [
+        "15. Departamento: Lima                      ",
+        8672377,
+        8472517,
+        8161191,
+        511186,
+        311326,
+        199860,
+        822512,
+        11.93,
+        7.26,
+        4.66,
+        0.24
+      ]
+    },
+    {
+      "rowNum": 15,
+      "values": [
+        "16. Departamento: Loreto                    ",
+        786461,
+        828834,
+        763728,
+        22733,
+        65106,
+        -42373,
+        87839,
+        5.63,
+        16.12,
+        -10.49,
+        -0.48
+      ]
+    },
+    {
+      "rowNum": 16,
+      "values": [
+        "17. Departamento: Madre de Dios             ",
+        124294,
+        117993,
+        106995,
+        17299,
+        10998,
+        6301,
+        28297,
+        28.56,
+        18.16,
+        10.40,
+        0.22
+      ]
+    },
+    {
+      "rowNum": 17,
+      "values": [
+        "18. Departamento: Moquegua                  ",
+        160992,
+        158701,
+        146837,
+        14155,
+        11864,
+        2291,
+        26019,
+        17.71,
+        14.84,
+        2.87,
+        0.09
+      ]
+    },
+    {
+      "rowNum": 18,
+      "values": [
+        "19. Departamento: Pasco                     ",
+        232996,
+        242322,
+        219214,
+        13782,
+        23108,
+        -9326,
+        36890,
+        11.60,
+        19.45,
+        -7.85,
+        -0.25
+      ]
+    },
+    {
+      "rowNum": 19,
+      "values": [
+        "20. Departamento: Piura                     ",
+        1673274,
+        1692075,
+        1621442,
+        51832,
+        70633,
+        -18801,
+        122465,
+        6.16,
+        8.40,
+        -2.23,
+        -0.15
+      ]
+    },
+    {
+      "rowNum": 20,
+      "values": [
+        "21. Departamento: Puno                      ",
+        1085892,
+        1112315,
+        1062633,
+        23259,
+        49682,
+        -26423,
+        72941,
+        4.23,
+        9.04,
+        -4.81,
+        -0.36
+      ]
+    },
+    {
+      "rowNum": 21,
+      "values": [
+        "22. Departamento: San Martín                ",
+        730200,
+        734035,
+        681464,
+        48736,
+        52571,
+        -3835,
+        101307,
+        13.31,
+        14.36,
+        -1.05,
+        -0.04
+      ]
+    },
+    {
+      "rowNum": 22,
+      "values": [
+        "23. Departamento: Tacna                     ",
+        301794,
+        291564,
+        276032,
+        25762,
+        15532,
+        10230,
+        41294,
+        17.37,
+        10.47,
+        6.90,
+        0.25
+      ]
+    },
+    {
+      "rowNum": 23,
+      "values": [
+        "24. Departamento: Tumbes                    ",
+        201893,
+        201882,
+        188991,
+        12902,
+        12891,
+        11,
+        25793,
+        12.78,
+        12.77,
+        0.01,
+        0
+      ]
+    },
+    {
+      "rowNum": 24,
+      "values": [
+        "25. Departamento: Ucayali                   ",
+        438434,
+        433031,
+        405187,
+        33247,
+        27844,
+        5403,
+        61091,
+        15.26,
+        12.78,
+        2.48,
+        0.09
+      ]
+    }
+  ]
+}

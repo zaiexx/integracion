@@ -1,0 +1,65 @@
+<?php
+
+/**
+ * @file
+ * Contains \Drupal\movilidad\Controller\MovilidadController.
+ */
+
+
+function migracion_theme_suggestions_page(array $variables) {
+  $path = explode('/', trim(\Drupal::service('path.current')->getPath(), '/'));
+
+  if (isset($path[1]) && $path[1] == 'maps') {
+    return 'page--migracion';
+  }
+} 
+
+function migracion_theme_suggestions_region_alter(array &$suggestions, array $variables, $hook) {
+
+    $suggestions[] = $hook . '__' . 'header';
+  }
+
+
+
+
+
+function migracion_theme() {
+
+	$themes = array();
+
+	/*$themes['page__segregacion'] = array (
+		'variables' => array (
+			'var' => NULL,
+		),
+		'template' => 'page--segregacion',
+		'path' => drupal_get_path('module', 'segregacion').'/templates',
+	);
+
+	return $themes;
+*/
+
+	return array (
+		'page__migracion' => [
+			'variables' => [
+				'var' => NULL,
+			],
+		'template' => 'page--migracion',
+		],
+	);	
+
+/*	return [
+    	'page__movilidad' => [
+      	'template' => 'page--movilidad',
+      	'base hook' => 'page'
+    ],
+  ];
+*/
+}
+
+
+
+function migracion_page_attachments(array &$page) {
+	$page['#attached']['library'][] = 'migracion/migracion-js';
+	$page['#attached']['library'][] = 'migracion/migracion-css';
+}
+

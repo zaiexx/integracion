@@ -1,0 +1,563 @@
+﻿{
+  "rows": 0,
+  "cols": 15,
+  "name": "aaaa",
+  "date": "1/23/2020",
+  "metadata": {
+    "title": "xxxx",
+    "columns": [
+      {
+        "caption": "Code",
+        "type": "STRING",
+        "group": "??"
+      },
+      {
+        "caption": "Departamento",
+        "type": "STRING",
+        "group": "??"
+      },
+      {
+        "caption": "Red pública dentro de la vivienda",
+        "type": "REAL",
+        "group": "??"
+      },
+      {
+        "caption": "Red pública fuera de la vivienda, pero dentro de la edificación",
+        "type": "REAL",
+        "group": "??"
+      },
+      {
+        "caption": "Pilón o pileta de uso público",
+        "type": "REAL",
+        "group": "??"
+      },
+      {
+        "caption": "Camión - cisterna u otro similar",
+        "type": "REAL",
+        "group": "??"
+      },
+      {
+        "caption": "Pozo (agua subterránea)",
+        "type": "REAL",
+        "group": "??"
+      },
+      {
+        "caption": "Manantial o puquio",
+        "type": "REAL",
+        "group": "??"
+      },
+      {
+        "caption": "Río, acequia, lago, laguna",
+        "type": "REAL",
+        "group": "??"
+      },
+      {
+        "caption": "Otro",
+        "type": "REAL",
+        "group": "??"
+      },
+      {
+        "caption": "9",
+        "type": "REAL",
+        "group": "??"
+      },
+      {
+        "caption": "Vecino",
+        "type": "REAL",
+        "group": "??"
+      },
+      {
+        "caption": "Missing Value",
+        "type": "REAL",
+        "group": "??"
+      },
+      {
+        "caption": "Not applicable",
+        "type": "REAL",
+        "group": "??"
+      },
+      {
+        "caption": "Total",
+        "type": "REAL",
+        "group": "??"
+      }
+    ]
+  },
+  "data": [
+    {
+      "rowNum": 0,
+      "values": [
+        "01",
+        "Departamento: Amazonas                  ",
+        53092,
+        227,
+        10047,
+        404,
+        4769,
+        21510,
+        10321,
+        363,
+        1674,
+        0,
+        36921,
+        102407
+      ]
+    },
+    {
+      "rowNum": 1,
+      "values": [
+        "02",
+        "Departamento: Áncash                    ",
+        211734,
+        20484,
+        13430,
+        1427,
+        9099,
+        25817,
+        9497,
+        568,
+        3843,
+        0,
+        117551,
+        295899
+      ]
+    },
+    {
+      "rowNum": 2,
+      "values": [
+        "03",
+        "Departamento: Apurímac                  ",
+        67910,
+        36,
+        7059,
+        625,
+        5887,
+        34117,
+        2152,
+        220,
+        2542,
+        0,
+        61458,
+        120548
+      ]
+    },
+    {
+      "rowNum": 3,
+      "values": [
+        "04",
+        "Departamento: Arequipa                  ",
+        276404,
+        25468,
+        9775,
+        923,
+        41296,
+        21182,
+        4558,
+        564,
+        1218,
+        0,
+        186734,
+        381388
+      ]
+    },
+    {
+      "rowNum": 4,
+      "values": [
+        "05",
+        "Departamento: Ayacucho                  ",
+        116120,
+        2120,
+        9204,
+        960,
+        7247,
+        28839,
+        4738,
+        358,
+        3758,
+        0,
+        105096,
+        173344
+      ]
+    },
+    {
+      "rowNum": 5,
+      "values": [
+        "06",
+        "Departamento: Cajamarca                 ",
+        198968,
+        506,
+        49786,
+        1979,
+        16860,
+        80275,
+        14619,
+        1327,
+        11903,
+        0,
+        128335,
+        376223
+      ]
+    },
+    {
+      "rowNum": 6,
+      "values": [
+        "07",
+        "Provincia Constitucional del Callao     ",
+        192464,
+        10463,
+        1188,
+        806,
+        15854,
+        23739,
+        2,
+        304,
+        0,
+        0,
+        37587,
+        244820
+      ]
+    },
+    {
+      "rowNum": 7,
+      "values": [
+        "08",
+        "Departamento: Cusco                     ",
+        194078,
+        3036,
+        27745,
+        1140,
+        15112,
+        63397,
+        7177,
+        605,
+        11282,
+        0,
+        123297,
+        323572
+      ]
+    },
+    {
+      "rowNum": 8,
+      "values": [
+        "09",
+        "Departamento: Huancavelica              ",
+        55771,
+        210,
+        11928,
+        433,
+        6734,
+        19697,
+        3133,
+        148,
+        4942,
+        0,
+        72626,
+        102996
+      ]
+    },
+    {
+      "rowNum": 9,
+      "values": [
+        "10",
+        "Departamento: Huánuco                   ",
+        87179,
+        2543,
+        31309,
+        797,
+        14809,
+        24385,
+        20043,
+        700,
+        8048,
+        0,
+        74609,
+        189813
+      ]
+    },
+    {
+      "rowNum": 10,
+      "values": [
+        "11",
+        "Departamento: Ica                       ",
+        163402,
+        16026,
+        7238,
+        1584,
+        7211,
+        22856,
+        1273,
+        1157,
+        932,
+        0,
+        78338,
+        221679
+      ]
+    },
+    {
+      "rowNum": 11,
+      "values": [
+        "12",
+        "Departamento: Junín                     ",
+        225085,
+        686,
+        32840,
+        1766,
+        5962,
+        31123,
+        15346,
+        840,
+        10427,
+        0,
+        116257,
+        324075
+      ]
+    },
+    {
+      "rowNum": 12,
+      "values": [
+        "13",
+        "Departamento: La Libertad               ",
+        318835,
+        16472,
+        33793,
+        2934,
+        13149,
+        43774,
+        6974,
+        1367,
+        4564,
+        0,
+        109011,
+        441862
+      ]
+    },
+    {
+      "rowNum": 13,
+      "values": [
+        "14",
+        "Departamento: Lambayeque                ",
+        218704,
+        7613,
+        21250,
+        2179,
+        13380,
+        19549,
+        5471,
+        1384,
+        439,
+        0,
+        64648,
+        289969
+      ]
+    },
+    {
+      "rowNum": 14,
+      "values": [
+        "15",
+        "Departamento: Lima                      ",
+        1862377,
+        161230,
+        39185,
+        11657,
+        77068,
+        252712,
+        8592,
+        2527,
+        2699,
+        0,
+        558938,
+        2418047
+      ]
+    },
+    {
+      "rowNum": 15,
+      "values": [
+        "16",
+        "Departamento: Loreto                    ",
+        87471,
+        5720,
+        31711,
+        1291,
+        8719,
+        7476,
+        42909,
+        3846,
+        383,
+        0,
+        32737,
+        189526
+      ]
+    },
+    {
+      "rowNum": 16,
+      "values": [
+        "17",
+        "Departamento: Madre de Dios             ",
+        23178,
+        2043,
+        4923,
+        88,
+        1271,
+        5490,
+        1842,
+        196,
+        350,
+        0,
+        12590,
+        39381
+      ]
+    },
+    {
+      "rowNum": 17,
+      "values": [
+        "18",
+        "Departamento: Moquegua                  ",
+        40884,
+        1146,
+        3141,
+        182,
+        6124,
+        2768,
+        944,
+        126,
+        1142,
+        0,
+        26456,
+        56457
+      ]
+    },
+    {
+      "rowNum": 18,
+      "values": [
+        "19",
+        "Departamento: Pasco                     ",
+        26802,
+        519,
+        9528,
+        328,
+        3749,
+        14011,
+        4616,
+        531,
+        3854,
+        0,
+        30736,
+        63938
+      ]
+    },
+    {
+      "rowNum": 19,
+      "values": [
+        "20",
+        "Departamento: Piura                     ",
+        288250,
+        34499,
+        20132,
+        7910,
+        31660,
+        41195,
+        31780,
+        5082,
+        8764,
+        0,
+        90320,
+        469272
+      ]
+    },
+    {
+      "rowNum": 20,
+      "values": [
+        "21",
+        "Departamento: Puno                      ",
+        147904,
+        3496,
+        136746,
+        2182,
+        27892,
+        34575,
+        19523,
+        1842,
+        12511,
+        0,
+        220206,
+        386671
+      ]
+    },
+    {
+      "rowNum": 21,
+      "values": [
+        "22",
+        "Departamento: San Martín                ",
+        139370,
+        512,
+        17252,
+        612,
+        8218,
+        22011,
+        20513,
+        725,
+        1577,
+        0,
+        47987,
+        210790
+      ]
+    },
+    {
+      "rowNum": 22,
+      "values": [
+        "23",
+        "Departamento: Tacna                     ",
+        71354,
+        3672,
+        3633,
+        151,
+        13295,
+        3812,
+        1115,
+        103,
+        410,
+        0,
+        53900,
+        97545
+      ]
+    },
+    {
+      "rowNum": 23,
+      "values": [
+        "24",
+        "Departamento: Tumbes                    ",
+        41651,
+        5130,
+        666,
+        1883,
+        2647,
+        6724,
+        1552,
+        626,
+        23,
+        0,
+        19840,
+        60902
+      ]
+    },
+    {
+      "rowNum": 24,
+      "values": [
+        "25",
+        "Departamento: Ucayali                   ",
+        53834,
+        975,
+        28766,
+        1931,
+        4109,
+        16306,
+        10881,
+        547,
+        427,
+        0,
+        28772,
+        117776
+      ]
+    }
+  ]
+}

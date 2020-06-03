@@ -1,0 +1,15 @@
+migracion.forms:
+  path: '/migracion/forms'
+  defaults:
+    _title: 'Formulario de datos para módulo de migración'
+    _form: '\Drupal\migracion\Form\MigracionForm'
+  requirements:
+    _permission: 'access content'
+
+migracion.maps:
+  path: '/migracion/maps'
+  defaults:
+    _title: 'Mapa para módulo de migración'
+    _controller: 'Drupal\migracion\Controller\MigracionController::getMaps'
+  requirements:
+    _permission: 'access content'
